@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
-      <div className="flex bg-blue-600 text-white justify-between pt-10 pb-5 pr-10 pl-10">
+      <div className="flex bg-blue-600 text-white justify-between pt-10 pb-5 pr-10 pl-10 border-b border-yellow-600">
         <div>
           <h1>States Barbershop</h1>
         </div>
