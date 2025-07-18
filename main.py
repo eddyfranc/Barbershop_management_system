@@ -8,6 +8,6 @@ db=cluster["Barbershop"]
 collection=db["test"]
 
 documents={"_id":1,"name": "franky", "Age":20, "year":2025, "ismarried":False, "isworking":True, "salary":100}
-# post2={"_id":2,"name": "eddy", "Age":10, "year":2025, "ismarried":False, "isworking":False, "salary":100}
+document2={"_id":2,"name": "eddy", "Age":10, "year":2025, "ismarried":False, "isworking":False, "salary":100}
 
-collection.insert_one(documents)
+collection.insert_one(document2)
